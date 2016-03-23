@@ -26,7 +26,11 @@ tapply(movie$Action,ClusterGroups,mean)
 
 tapply(movie$Romance,ClusterGroups,mean)
 
+# k means clustering
+KMC=kmeans(DF,centers=k,iter.max=100)
+str(KMC)
 
+KMC$cluster etc
 
 
 
